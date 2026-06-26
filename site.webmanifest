@@ -1,7 +1,7 @@
 {
     "name": "Colors",
     "short_name": "Colors",
-    "description": "A minute-by-minute hex color clock that moves from #000000 to #FFFFFF.",
+    "description": "A minute-by-minute hex color clock that moves from #000000 to #FFFFFF over 32 years.",
     "start_url": "/",
     "scope": "/",
     "display": "standalone",

@@ -4,6 +4,10 @@ Colors is a tiny static web experiment at [colors.jeme.app](https://colors.jeme.
 
 The page changes its background color once every minute, starting at `#000000` and moving through the full 24-bit hex color range until `#FFFFFF`. There are 16,777,216 colors total, so the full cycle takes about 32 years.
 
+## Dates
+
+The cycle starts at `2023-08-01T00:00:00Z`. White begins at `2055-06-24T20:15:00Z`, and the full cycle completes one minute later at `2055-06-24T20:16:00Z`.
+
 ## Local Development
 
 Open [index.html](index.html) directly in a browser, or serve the directory with any static file server.
