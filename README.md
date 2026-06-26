@@ -8,6 +8,8 @@ The page changes its background color once every minute, starting at `#000000` a
 
 The cycle starts at `2023-08-01T00:00:00Z`. White begins at `2055-06-24T20:15:00Z`, and the full cycle completes one minute later at `2055-06-24T20:16:00Z`.
 
+Dates are calculated from UTC so every visitor sees the same color at the same moment, but the app displays dates in the visitor's local timezone.
+
 ## Local Development
 
 Open [index.html](index.html) directly in a browser, or serve the directory with any static file server.
@@ -27,6 +29,8 @@ This is a static site. Deploy the repository contents to any static host and poi
 ```text
 https://colors.jeme.app/
 ```
+
+The included [CNAME](CNAME) file sets the custom domain to `colors.jeme.app`.
 
 The production URL is used in the canonical, Open Graph, and Twitter metadata in [index.html](index.html).
 
